@@ -1,0 +1,27 @@
+{
+  "name": "webex-guest-generator",
+  "version": "1.0.0",
+  "description": "Utility to obtain Webex guest user tokens from a guest issuer",
+  "author": "Lalli Flores <lalli.flores@gmail.com>",
+  "license": "ISC",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": "webex-guest-generator.mjs",
+  "keywords": [
+    "webex",
+    "guest-issuer",
+    "guest-account",
+    "guest-token"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lalli-flores/webex.guest.generator.git"
+  },
+  "engines": {
+    "node": ">=14.6.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.0"
+  }
+}
