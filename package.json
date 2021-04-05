@@ -1,6 +1,6 @@
 {
   "name": "webex-guest-generator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Utility to obtain Webex guest user tokens from a guest issuer",
   "author": "Lalli Flores <lalli.flores@gmail.com>",
   "license": "ISC",

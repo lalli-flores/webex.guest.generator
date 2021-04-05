@@ -21,6 +21,7 @@ import {getGuestToken, getGuestAccessToken, getGuestData} from './index.mjs';
     try {
       const jwtToken = getGuestToken(config.name, config.id, config.secret);
       const accessToken = await getGuestAccessToken(jwtToken);
+      console.log('\x1b[36m%s\x1b[0m\n%O', 'Guest JWT token:', jwtToken);
       console.log('\x1b[36m%s\x1b[0m\n%O', 'Guest access token:', accessToken);
 
       const user = await getGuestData(accessToken.token);
